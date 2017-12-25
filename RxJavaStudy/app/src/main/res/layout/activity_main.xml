@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.joyveb.rxjava.MainActivity">
+
+    <Button
+        android:id="@+id/btn_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="create" />
+
+    <Button
+        android:id="@+id/btn_range"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="range" />
+
+    <Button
+        android:id="@+id/btn_defer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="deferAndJust" />
+
+    <Button
+        android:id="@+id/btn_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From" />
+
+    <Button
+        android:id="@+id/btn_interval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interval" />
+
+    <Button
+        android:id="@+id/btn_repeat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="repeat" />
+
+    <Button
+        android:id="@+id/btn_transform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TransForm 进阶" />
+
+    <Button
+        android:id="@+id/btn_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filtering" />
+
+    <Button
+        android:id="@+id/btn_combining_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Combining" />
+
+    <Button
+        android:id="@+id/btn_error_handing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ErrorHanding" />
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.joyveb.rxjava.MainActivity">
+
+    <Button
+        android:id="@+id/btn_buffer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="buffer" />
+
+    <Button
+        android:id="@+id/btn_flatmap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="flatmap" />
+
+    <Button
+        android:id="@+id/btn_groupby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="groupby" />
+
+    <Button
+        android:id="@+id/btn_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="map" />
+
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="scan" />
+
+    <Button
+        android:id="@+id/btn_window"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="window" />
+
+</LinearLayout>
